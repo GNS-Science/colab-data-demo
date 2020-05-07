@@ -1,0 +1,37 @@
+[2020-05-06 02:05:51 #1 INFO] root running /home/openquake/01_point_era_oq/job-WLG.ini [--hc=None]
+[2020-05-06 02:05:51 #1 INFO] Using engine version 3.10.0
+[2020-05-06 02:05:54 #1 WARNING] Using 8 cores on c0e1ba3e33db
+[2020-05-06 02:05:54 #1 INFO] Validated source_model_logic_tree.xml in 0.00 seconds
+[2020-05-06 02:05:54 #1 INFO] Checksum of the input files: 1041920075
+[2020-05-06 02:05:54 #1 INFO] Reading the risk model if present
+[2020-05-06 02:05:54 #1 INFO] Read N=1 hazard sites and L=29 hazard levels
+[2020-05-06 02:05:54 #1 INFO] Validated source_model_logic_tree.xml in 0.00 seconds
+[2020-05-06 02:05:54 #1 INFO] Potential number of logic tree paths = 1
+[2020-05-06 02:05:54 #1 INFO] 1 effective smlt realization(s)
+[2020-05-06 02:05:54 #1 INFO] Reading the source model(s) in parallel
+[2020-05-06 02:05:54 #1 INFO] read_source_model 0 B sent, 1 submitted, 0 queued
+[2020-05-06 02:05:54 #1 INFO] read_source_model 100% [1 submitted, 0 queued]
+[2020-05-06 02:05:54 #1 INFO] Received {'/home/openquake/01_point_era_oq/WLG_pt.xml': '1.44 KB'} in 0 seconds
+[2020-05-06 02:05:55 #1 INFO] There are 1 sources with 1 unique IDs
+[2020-05-06 02:05:55 #1 INFO] Checking the sources bounding box
+[2020-05-06 02:05:55 #1 INFO] gzipping the input files
+[2020-05-06 02:05:55 #1 INFO] Validated source_model_logic_tree.xml in 0.00 seconds
+[2020-05-06 02:05:55 #1 INFO] Weighting the sources
+[2020-05-06 02:05:55 #1 INFO] tot_weight=22, max_weight=30_000
+[2020-05-06 02:05:55 #1 INFO] TRT = Active Shallow Crust
+[2020-05-06 02:05:55 #1 INFO] max_dist=400.0, gsims=1, weight=22, blocks=1
+[2020-05-06 02:05:55 #1 INFO] Estimated upper memory limit per core:
+1 sites x 29 levels x 1 gsims x 1 src_multiplicity * 8 bytes = 232 B
+[2020-05-06 02:05:55 #1 INFO] classical 0 B sent, 1 submitted, 0 queued
+[2020-05-06 02:05:55 #1 INFO] classical 100% [1 submitted, 0 queued]
+[2020-05-06 02:05:55 #1 INFO] Received {'rup_data': '2.66 KB', 'pmap': '687 B', 'calc_times': '269 B', 'extra': '110 B'} in 0 seconds
+[2020-05-06 02:05:55 #1 INFO] There are 1 realization(s)
+[2020-05-06 02:05:56 #1 INFO] Storing by_task information
+[2020-05-06 02:05:56 #1 INFO] Effective number of ruptures: 22/22
+[2020-05-06 02:05:56 #1 INFO] Effective number of sites per rupture: 1
+[2020-05-06 02:05:56 #1 INFO] Building hazard statistics
+[2020-05-06 02:05:56 #1 INFO] build_hazard 0 B sent, 1 submitted, 0 queued
+[2020-05-06 02:05:56 #1 INFO] build_hazard 100% [1 submitted, 0 queued]
+[2020-05-06 02:05:56 #1 INFO] Received {'hcurves-stats': '576 B', 'hmaps-stats': '360 B'} in 0 seconds
+[2020-05-06 02:05:56 #1 INFO] Exposing the outputs to the database
+[2020-05-06 02:05:56 #1 INFO] Calculation 1 finished correctly in 1 seconds
